@@ -1,0 +1,83 @@
+body {
+    background: #416eb554;
+}
+
+.heading {
+    text-align: center;
+    font-size: 50px;
+    margin: opx;
+    padding: 0px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    width: 120px;
+    height: 120px;
+    margin: 2px 50px;
+    border-radius: 50%;
+    border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px;
+}
+
+.image:hover {
+    opacity: 0.7;
+    transition: .5s ease;
+    background-color: #31BA00;
+}
+
+img {
+    width: 116px;
+    height: 116px;
+    border-radius: 50%
+}
+
+.info-container {
+    width: 1277px;
+    height: 414px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    margin: 347px;
+    margin-top: 347px;
+    margin-top: 50px;
+    border-radius: 5px;
+    box-shadow: 0px 10px 20px rgb(31, 16, 16);
+}
+
+.profile {
+    width: 100%;
+    align-content: center;
+    height: 260px;
+    border-radius: 15%;
+    padding: 0px;
+    margin: 23px;
+}
+
+.name {
+    margin-top: 80px;
+    padding: 0px 15px;
+    text-align: left;
+    font-size: 50px;
+    line-height: 20px;
+}
+
+.status {
+    padding: 0px 20px;
+    text-align: left;
+    line-height: 20px;
+    margin: 0;
+}
+
+.about {
+    height: 240px;
+    padding: 0px 20px;
+}
